@@ -71,5 +71,5 @@ def calculations():
         
 
 
-print("Welcome to Game:\n")
+
 calculations()
