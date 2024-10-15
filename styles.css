@@ -1,0 +1,133 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #004d99;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Home Section */
+#welcome {
+    background-color: #e6f2ff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#welcome h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+#welcome p {
+    font-size: 18px;
+}
+
+/* Facility Section */
+.facility {
+    padding: 40px 20px;
+    background-color: #fff;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.facility h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.facility p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.facility .btn {
+    padding: 10px 20px;
+    background-color: #004d99;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.facility .btn:hover {
+    background-color: #003366;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #004d99;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .logo h1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .facility h2 {
+        font-size: 24px;
+    }
+
+    .facility p {
+        font-size: 14px;
+    }
+
+    .facility .btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
