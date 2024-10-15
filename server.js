@@ -1,0 +1,1 @@
+const express = require('express');\nconst app = express();\nconst PORT = process.env.PORT || 3000;\napp.use(express.json());\napp.use(express.static('public'));\napp.get('/api', (req, res) => {\nres.json({ message: 'Hello from the backend!' });\n});\napp.listen(PORT, () => {\nconsole.log(`Server is running on http://localhost:${PORT}`);\n});
